@@ -65,5 +65,39 @@ def preference5(problem, variables):
     return problem
 
 
+def equal_lists(list1, list2):
+    """Returns True if list1 and list2 have the same elements"""
+    if set(list1) == set(list2):
+        return True
+    else:
+        return False
+
+
+def set_preferences(problem, preferences, variables, return_problem=False):
+    """
+    Sets given preferences and returns the list
+    of places satisfying the preferences.
+    if return_problem == True: returns problem as well
+    """
+    if 1 in preferences:
+        problem = preference1(problem, variables)
+    if 2 in preferences:
+        problem = preference2(problem, variables)
+    if 3 in preferences:
+        problem = preference3(problem, variables)
+    if 4 in preferences:
+        problem = preference4(problem, variables)
+    if 5 in preferences:
+        problem = preference5(problem, variables)
+    problem.solve()
+    # list of preferred places
+    pref_places = [var.name for var in problem.variables() if var.varValue]
+
+    if return_problem:
+        return pref_places, problem
+    else:
+        return pref_places
+
+
 if __name__ == '__main__':
     pass
