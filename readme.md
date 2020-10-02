@@ -1,5 +1,6 @@
 # Decision modelling
-## Assignment 2. Linear programming
+## Assignment 2. Linear programming  
+### Emir Nurmatbekov
 
 1.   `ListVisit1 = ['AC', 'AT', 'BS', 'CA', 'CN', 'PC', 'SC']`
 
