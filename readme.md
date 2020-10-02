@@ -15,7 +15,6 @@
     (j) List from preferences 2, 3, 4 and 5: `['v_AC', 'v_AT', 'v_CA', 'v_PC', 'v_TE', 'v_TM']` 
     (k) List from preferences 1, 2, 4 and 5: `['v_AC', 'v_AT', 'v_CA', 'v_TE', 'v_TM']`  
     (l) List from preferences 1, 2, 3, 4 and 5: `['v_AC', 'v_AT', 'v_CA', 'v_TE', 'v_TM']`  
-
     (m) None of the combinations above give the same solution as `ListVisit1`
 
 3.  Kendall and Spearman correlations for all pairs of rankings:  
