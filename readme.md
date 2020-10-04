@@ -13,7 +13,7 @@
     (g) List from preferences 4 and 5: `['AC', 'AT', 'BS', 'CN', 'PC', 'SC', 'TM']`  
     (h) List from preferences 1, 2 and 4: `['AC', 'AT', 'CA', 'TE', 'TM']`  
     (i) List from preferences 2, 3 and 5: `['AC', 'AT', 'CA', 'JT', 'PC', 'TE']`  
-    (j) List from preferences 2, 3, 4 and 5: `['AC', 'AT', 'CA', 'PC', 'TE', 'TM']` 
+    (j) List from preferences 2, 3, 4 and 5: `['AC', 'AT', 'CA', 'PC', 'TE', 'TM']`   
     (k) List from preferences 1, 2, 4 and 5: `['AC', 'AT', 'CA', 'TE', 'TM']`  
     (l) List from preferences 1, 2, 3, 4 and 5: `['AC', 'AT', 'CA', 'TE', 'TM']`  
     (m) None of the combinations above give the same solution as `ListVisit1`
